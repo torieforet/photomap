@@ -1,16 +1,8 @@
-# Photomap
-A Leaflet map that reads data from Google Sheets.  
+# Torie Foret's Example 
+Example map created for GEOG 4046 course at LSU.
 
-Created as an example for [GEOG 4046](https://geog4046.github.io).  
+## Current Weather 
+This map shows a real-time weather radar and alerts from the National Weather Service. The minor alerts will be displayed in yellow polygons, while the severe alerts will be displayed in red polygons. The alerts that are not categorized as severe or minor will displayed in orange polygons. <https://torieforet.github.io/weather>
 
-Each row in the sheet will appear as a marker on the map. When the marker is clicked, a popup will appear showing information about the location, taken from the columns of the spreadsheet.  
-
-This script assumes the Google Sheet has the following columns. These match the attribute names used for the [Story Map Tour](https://www.arcgis.com/home/item.html?id=91d75e9b375e4e9b9b3a4004544bfadf) template in ArcGIS Online.  
-
-Column name | Description
-:-----------|--------------------------------------------------------------
-name        | A short name for the location, to appear as the popup title |
-description | A sentence or two describing the location in more detail    |
-lat         | Latitude in decimal degrees                                 |
-long        | Longitude in decimal degrees                                |
-pic_url     | The URL to an image that will be displayed in the popup     |
+##Iconic MLB Stadiums Photomap 
+This story map shows four iconic MLB stadiums: Dodger Stadium, Fenway Park, Wrigley Field, and Yankee Stadium. This story map also shows parking areas around the stadiums. These four MLB stadiums are some of the most known stadiums across the country. Any MLB fan has these stadiums on their bucket list.
