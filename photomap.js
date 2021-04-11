@@ -20,9 +20,9 @@ function createPhotoMap () {
   var map = L.map('map').setView([30.44, -91.187], 4);
   
   // create basemap object. See examples at https://leaflet-extras.github.io/leaflet-providers/preview/
-  var basemap = L.tileLayer('https://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}}', {
-  	maxZoom: 13,
-  	attribution: 'ESRI'
+  var basemap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+  	maxZoom: 16
+  	attribution: 'Esri &mdash; Esri, DeLorme, NAVTEQ'
   }).addTo(map);
   
   // use Papa Parse (papaparse.com) to get the Google Sheets CSV
